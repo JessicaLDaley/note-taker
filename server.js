@@ -17,11 +17,11 @@ app.use(express.static("public"));
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/index.html"));
+  res.sendFile(path.join(__dirname, "./develop/public/index.html"));
 });
 
 app.get("/notes", function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/notes.html"));
+  res.sendFile(path.join(__dirname, "./develop/public/notes.html"));
 
 });
 
@@ -60,7 +60,7 @@ app.get("/api/notes", function (req, res) {
 app.delete("/api/notes/:id", function (req, res) {
   const noteId = JSON.parse(req.params.id)
   console.log(noteId)
-  fs.readFile(__dirname + "/db/db.json", 'utf8', function (error, notes) {
+  fs.readFile(__dirname + "./develop/db/db.json", 'utf8', function (error, notes) {
     if (error) {
       return console.log(error)
     }
@@ -68,7 +68,7 @@ app.delete("/api/notes/:id", function (req, res) {
 
     notes = notes.filter(val => val.id !== noteId)
 
-    fs.writeFile(__dirname + "/db/db.json", JSON.stringify(notes), function (error, data) {
+    fs.writeFile(__dirname + "./develop/db/db.json", JSON.stringify(notes), function (error, data) {
       if (error) {
         return error
       }
@@ -80,7 +80,7 @@ app.delete("/api/notes/:id", function (req, res) {
 app.put("/api/notes/:id", function(req, res) {
   const noteId = JSON.parse(req.params.id)
   console.log(noteId)
-  fs.readFile(__dirname + "db/db.json", "utf8", function(error, notes) {
+  fs.readFile(__dirname + "./develop/db/db.json", "utf8", function(error, notes) {
     if (error ){
       return console.log(error)
     }
@@ -88,7 +88,7 @@ app.put("/api/notes/:id", function(req, res) {
 
     notes = notes.filter(val => val.id !== noteId)
 
-    fs.writeFile(__dirname +"db/db.json", JSON.stringify(notes), function (error, data) {
+    fs.writeFile(__dirname +"./develop/db/db.json", JSON.stringify(notes), function (error, data) {
       if (error) {
         return error
       }
