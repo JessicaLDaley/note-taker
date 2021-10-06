@@ -36,7 +36,7 @@
  
   ## Questions?
   
-  Please contact me below:
+  Contact me below:
  
   GitHub: [@jessicadaley](https://api.github.com/users/jessicadaley)
    Email: jessicadaley127@gmail.com 
