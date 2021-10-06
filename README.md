@@ -1,4 +1,5 @@
 # Note Taker
+![notess](https://user-images.githubusercontent.com/79805880/136254943-5dc5d89d-d539-4b43-a0fd-e07f5b7646bb.png)
 
   
    ## Description 
@@ -15,12 +16,13 @@
   ## Installation
   
  
-   Just click the deployed application link:
+   Just click the deployed application link: <a href="https://warm-journey-88319.herokuapp.com/"> Deployed Heroku Note Taker Application </a> 
   
   ## Usage 
   
  
-  Click the "Get Started" button and there to the right you will find a text field to title your note. Underneath you can write your memo and in the upper right hand corner you can click the save button and youll find your posted note in the side bar to the left. There you will see a trashcan icon that you can click when you wish to delete. 
+  Click the "Get Started" button and there to the right you will find a text field to title your note. Underneath you can write your memo and in the upper right hand corner you can click the save button and youll find your posted note in the side bar to the left. There you will see a trashcan icon that you can click when you wish to delete. ![note2](https://user-images.githubusercontent.com/79805880/136254978-5230dde8-bcdc-4fb8-82c7-da0af5de1dcb.png)
+
   
   ## Contribution 
   
