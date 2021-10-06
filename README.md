@@ -29,9 +29,8 @@
   
   Anyone can contribute. Just clone the repository and submit a pull request for review. 
   
-  ## Tests
-  
- ## License 
+
+  ## License 
   
   MIT License 
  
