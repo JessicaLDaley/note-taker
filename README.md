@@ -16,7 +16,7 @@
   ## Installation
   
  
-   Just click the deployed Heroku application link >> <a href="https://warm-journey-88319.herokuapp.com/"> Note Taker Application </a> 
+   Just click the deployed Heroku application link: <a href="https://warm-journey-88319.herokuapp.com/"> Note Taker Application </a> 
   
   ## Usage 
   
