@@ -1,3 +1,4 @@
+// Dependencies 
 const PORT = process.env.PORT || 3001;
 const fs = require('fs');
 const path = require('path');
@@ -7,6 +8,7 @@ const app = express();
 
 const allNotes = require('./db/db.json');
 
+// Parse Data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
@@ -27,6 +29,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
+// Create and post
 function createNewNote(body, notesArray) {
     const newNote = body;
     if (!Array.isArray(notesArray))
@@ -51,6 +54,7 @@ app.post('/api/notes', (req, res) => {
     res.json(newNote);
 });
 
+// Delete notes
 function deleteNote(id, notesArray) {
     for (let i = 0; i < notesArray.length; i++) {
         let note = notesArray[i];
