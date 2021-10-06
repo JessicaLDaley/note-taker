@@ -31,8 +31,7 @@
   
   ## Tests
   
- 
- undefined ## License 
+ ## License 
   
   MIT License 
  
