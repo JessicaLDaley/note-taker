@@ -21,7 +21,7 @@
   ## Usage 
   
  
-  Click the "Get Started" button and there to the right you will find a text field to title your note. Underneath you can write your memo and in the upper right hand corner you can click the save button and youll find your posted note in the side bar to the left. There you will see a trashcan icon that you can click when you wish to delete. ![note2](https://user-images.githubusercontent.com/79805880/136254978-5230dde8-bcdc-4fb8-82c7-da0af5de1dcb.png)
+  Click the "Get Started" button and there to the right you will find a text field to title your note. Underneath you can write your memo and in the upper right hand corner you can click the save button. You'll then find your posted note in the side bar to the left of the page. There you will see a trash can icon that you can click when you wish to delete. ![note2](https://user-images.githubusercontent.com/79805880/136254978-5230dde8-bcdc-4fb8-82c7-da0af5de1dcb.png)
 
   
   ## Contribution 
